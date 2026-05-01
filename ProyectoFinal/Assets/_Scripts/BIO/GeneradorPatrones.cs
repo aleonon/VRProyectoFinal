@@ -7,12 +7,6 @@ public class GeneradorPatrones : MonoBehaviour
     public List<GameObject> ingredientesPrefabs;
 
     public Transform[] espacios;
-
-    private void Start()
-    {
-        GenerarPatron();
-    }
-
     public void GenerarPatron()
     {
         LimpiarEspacios();
@@ -22,10 +16,6 @@ public class GeneradorPatrones : MonoBehaviour
             int randomIndex = Random.Range(0, ingredientesPrefabs.Count);
 
             GameObject obj = Instantiate(ingredientesPrefabs[randomIndex], espacios[i]);
-
-            obj.transform.localPosition = Vector3.zero;
-            obj.transform.localRotation = Quaternion.identity;
-            obj.transform.localScale = Vector3.one;
         }
     }
 
