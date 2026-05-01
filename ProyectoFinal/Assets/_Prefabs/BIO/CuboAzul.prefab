@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3247220008181623407}
   - component: {fileID: 2205415694147591}
   - component: {fileID: 3052680441295434958}
+  - component: {fileID: -3993273638630954173}
   m_Layer: 0
   m_Name: CuboAzul
   m_TagString: Untagged
@@ -294,3 +295,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BNG.SnapZoneOffset
   LocalPositionOffset: {x: 0, y: 0, z: 0}
   LocalRotationOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &-3993273638630954173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7590803940302845677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbb61d83429d2743bc4e67766590c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
+  spawner: {fileID: 0}
+  tiempoVida: 15
