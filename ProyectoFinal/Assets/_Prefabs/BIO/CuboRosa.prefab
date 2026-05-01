@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2250609020915088169}
   - component: {fileID: 3378650216624981802}
   - component: {fileID: -9031655116061105877}
+  - component: {fileID: 8637242565523875287}
   m_Layer: 0
   m_Name: CuboRosa
   m_TagString: Untagged
@@ -294,3 +295,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BNG.SnapZoneOffset
   LocalPositionOffset: {x: 0, y: 0, z: 0}
   LocalRotationOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &8637242565523875287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8934559065064857921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbb61d83429d2743bc4e67766590c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
+  spawner: {fileID: 0}
