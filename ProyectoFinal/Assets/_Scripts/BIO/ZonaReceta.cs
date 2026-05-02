@@ -7,7 +7,9 @@ public class ZonaReceta : MonoBehaviour
 
     public List<int> recetaActual = new List<int>();
 
+    //refrencias aaaaaaaaaaaaaaaaaaaa
     public GeneradorPatrones generador;
+    public GameManager gameManager;
 
     public void LeerReceta() //reune id de ingredientes
     {
@@ -26,6 +28,15 @@ public class ZonaReceta : MonoBehaviour
         }
 
         Debug.Log("Receta jugador: " + string.Join(",", recetaActual));
+
+        if (CompararReceta())
+        {
+            gameManager.RecetaCorrecta();
+        }
+        else
+        {
+            gameManager.RecetaIncorrecta();
+        }
     }
 
     public void LimpiarSlots()
@@ -63,12 +74,14 @@ public class ZonaReceta : MonoBehaviour
 
         Debug.Log("Receta correcta");
         return true;
-    }
 
+    }
+    /*
     public void GenerarNuevaReceta()
     {
         CompararReceta();
         LimpiarSlots();
         generador.GenerarPatron();
     }
+    */
 }
