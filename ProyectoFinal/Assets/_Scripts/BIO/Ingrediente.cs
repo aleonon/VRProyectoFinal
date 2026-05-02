@@ -3,25 +3,7 @@ using UnityEngine;
 
 public class Ingrediente : MonoBehaviour
 {
-    public IngredienteSpawner spawner;
+    public int idIngrediente;
 
-    private void OnEnable()
-    {
-        CancelInvoke();
-    }
-
-    void Desactivar()
-    {
-        gameObject.SetActive(false);
-    }
-
-    private void OnDisable()
-    {
-
-        // Avisar al spawner que este objeto ya no está disponible
-        if (spawner != null)
-        {
-            spawner.NotificarObjetoDesaparecido(gameObject);
-        }
-    }
+    [HideInInspector] public IngredienteSpawner spawner;
 }

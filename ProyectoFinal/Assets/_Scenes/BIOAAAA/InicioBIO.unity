@@ -408,6 +408,139 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1001 &187137033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.577
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.70579004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2294232360408948687, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: m_Name
+      value: BotonLimpiar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 622500225}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 774393869}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LeerReceta
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PararTimer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SlotReceta, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Timer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
+        type: 3}
+      propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56452a9f1f75554439421f0335e979b3, type: 3}
 --- !u!1 &212610858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1375,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &622500224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622500226}
+  - component: {fileID: 622500225}
+  m_Layer: 0
+  m_Name: ZonaReceta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &622500225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622500224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e772529c03b414e4ca0a9f32ef378b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotReceta
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  recetaActual: 
+--- !u!4 &622500226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622500224}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05982, y: 0.684, z: 0.85106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &664939132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1253,7 +1436,7 @@ PrefabInstance:
     - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.001
+      value: 0.943
       objectReference: {fileID: 0}
     - target: {fileID: 2294232360408948684, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
@@ -1303,7 +1486,7 @@ PrefabInstance:
     - target: {fileID: 2294232360408948687, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
       propertyPath: m_Name
-      value: Button
+      value: BotonGenPatron
       objectReference: {fileID: 0}
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
@@ -1800,7 +1983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerText: {fileID: 1068715944}
-  currentTime: 60
+  currentTime: 200
 --- !u!1 &885552591
 GameObject:
   m_ObjectHideFlags: 0
@@ -6745,9 +6928,11 @@ SceneRoots:
   - {fileID: 1177269356}
   - {fileID: 1755209969}
   - {fileID: 664939132}
+  - {fileID: 187137033}
   - {fileID: 1374633282}
   - {fileID: 1593208834}
   - {fileID: 255694494}
   - {fileID: 1862555731}
   - {fileID: 1971710768}
   - {fileID: 1113786628}
+  - {fileID: 622500226}

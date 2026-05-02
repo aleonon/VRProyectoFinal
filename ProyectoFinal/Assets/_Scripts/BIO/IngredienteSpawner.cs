@@ -21,7 +21,7 @@ public class IngredienteSpawner : MonoBehaviour
             GameObject obj = Instantiate(ingredientePrefab, transform);
             obj.SetActive(false);
 
-            Ingrediente ing = obj.GetComponent<Ingrediente>();
+            Ingrediente ing = obj.GetComponentInChildren<Ingrediente>();
             if (ing != null)
             {
                 ing.spawner = this;

@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 9128350441391432123}
   - component: {fileID: 2141615806449981729}
   - component: {fileID: -88329775231413430}
-  - component: {fileID: 8079438728510541702}
+  - component: {fileID: 6585154000845372083}
   m_Layer: 0
   m_Name: CuboAmarillo
   m_TagString: Untagged
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BNG.SnapZoneOffset
   LocalPositionOffset: {x: 0, y: 0, z: 0}
   LocalRotationOffset: {x: 0, y: 0, z: 0}
---- !u!114 &8079438728510541702
+--- !u!114 &6585154000845372083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -340,4 +340,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
   spawner: {fileID: 0}
-  tiempoVida: 15

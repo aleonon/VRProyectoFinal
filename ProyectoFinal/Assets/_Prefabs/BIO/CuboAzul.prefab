@@ -307,5 +307,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbbb61d83429d2743bc4e67766590c57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
-  spawner: {fileID: 0}
-  tiempoVida: 15
+  idIngrediente: 1
