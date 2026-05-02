@@ -26,10 +26,6 @@ public class ZonaReceta : MonoBehaviour
         }
 
         Debug.Log("Receta jugador: " + string.Join(",", recetaActual));
-        CompararReceta();
-        LimpiarSlots();
-        generador.GenerarPatron();
-
     }
 
     public void LimpiarSlots()
@@ -67,5 +63,12 @@ public class ZonaReceta : MonoBehaviour
 
         Debug.Log("Receta correcta");
         return true;
+    }
+
+    public void GenerarNuevaReceta()
+    {
+        CompararReceta();
+        LimpiarSlots();
+        generador.GenerarPatron();
     }
 }
