@@ -509,7 +509,7 @@ PrefabInstance:
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LeerReceta
+      value: LimpiarSlots
       objectReference: {fileID: 0}
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
@@ -519,7 +519,7 @@ PrefabInstance:
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SlotReceta, Assembly-CSharp
+      value: ZonaReceta, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
@@ -1404,11 +1404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e772529c03b414e4ca0a9f32ef378b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlotReceta
-  slots:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  slots: []
   recetaActual: 
 --- !u!4 &622500226
 Transform:
