@@ -509,7 +509,7 @@ PrefabInstance:
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LimpiarSlots
+      value: LeerReceta
       objectReference: {fileID: 0}
     - target: {fileID: 4763170952409570801, guid: 56452a9f1f75554439421f0335e979b3,
         type: 3}
@@ -1135,7 +1135,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1610746484}
   m_SourcePrefab: {fileID: 100100000, guid: edc8e9580741d2e40ac64e21923748f0, type: 3}
 --- !u!4 &344765178 stripped
 Transform:
@@ -1404,7 +1408,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e772529c03b414e4ca0a9f32ef378b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SlotReceta
-  slots: []
+  slots:
+  - {fileID: 1131649957}
+  - {fileID: 1543280908}
+  - {fileID: 1610746484}
+  - {fileID: 1822137386}
   recetaActual: 
 --- !u!4 &622500226
 Transform:
@@ -1980,6 +1988,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerText: {fileID: 1068715944}
   currentTime: 200
+--- !u!1 &807145782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1822137379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &885552591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,6 +2148,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892992235}
   m_CullTransparentMesh: 1
+--- !u!1 &942174798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1131649950}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1068715943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,7 +2681,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131649957}
   m_SourcePrefab: {fileID: 100100000, guid: edc8e9580741d2e40ac64e21923748f0, type: 3}
 --- !u!4 &1131649951 stripped
 Transform:
@@ -2669,6 +2693,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1131649950}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1131649957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942174798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d153f6684d55b47a0e5b773807cba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotRecetaa
+  ingredienteActual: {fileID: 0}
 --- !u!1 &1177269350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4146,6 +4183,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1541310657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1543280901}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1543280901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4212,7 +4255,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543280908}
   m_SourcePrefab: {fileID: 100100000, guid: edc8e9580741d2e40ac64e21923748f0, type: 3}
 --- !u!4 &1543280902 stripped
 Transform:
@@ -4220,6 +4267,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1543280901}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1543280908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541310657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d153f6684d55b47a0e5b773807cba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotRecetaa
+  ingredienteActual: {fileID: 0}
 --- !u!43 &1571360112
 Mesh:
   m_ObjectHideFlags: 0
@@ -4545,6 +4605,25 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1345248116}
   m_SourcePrefab: {fileID: 100100000, guid: 72401fa536b4f5741927feb7559b3662, type: 3}
+--- !u!1 &1610746478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 344765177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1610746484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610746478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d153f6684d55b47a0e5b773807cba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotRecetaa
+  ingredienteActual: {fileID: 0}
 --- !u!1 &1647688169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,7 +5561,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5326136114756667366, guid: edc8e9580741d2e40ac64e21923748f0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1822137386}
   m_SourcePrefab: {fileID: 100100000, guid: edc8e9580741d2e40ac64e21923748f0, type: 3}
 --- !u!4 &1822137380 stripped
 Transform:
@@ -5490,6 +5573,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1822137379}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1822137386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807145782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d153f6684d55b47a0e5b773807cba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlotRecetaa
+  ingredienteActual: {fileID: 0}
 --- !u!1 &1835930247
 GameObject:
   m_ObjectHideFlags: 0
