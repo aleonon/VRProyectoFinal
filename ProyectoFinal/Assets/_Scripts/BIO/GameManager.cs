@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     //refrencias aaaaaaaaaaaaaaaaaaaa
     public GeneradorPatrones generador;
     public ZonaReceta zonaReceta;
+    public Timer timer;
 
     public GameObject panelVictoria;
     public GameObject panelDerrota;
@@ -81,6 +82,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("GANASTE");
 
         panelVictoria?.SetActive(true);
+        FinJuego();
     }
 
     void Derrota()
@@ -89,5 +91,11 @@ public class GameManager : MonoBehaviour
         Debug.Log("PERDISTE");
 
         panelDerrota?.SetActive(true);
+        FinJuego();
+    }
+
+    void FinJuego()
+    {
+        timer.PararTimer();
     }
 }
