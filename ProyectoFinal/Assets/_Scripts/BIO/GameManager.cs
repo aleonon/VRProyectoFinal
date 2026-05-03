@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
 
     void FinJuego()
     {
+        zonaReceta.LimpiarSlots();
         timer.PararTimer();
     }
 }
