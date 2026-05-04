@@ -26,7 +26,7 @@ public class GeneradorPatrones : MonoBehaviour
         Debug.Log("Patrón generado: " + string.Join(",", patronActual));
     }
 
-    void LimpiarEspacios()
+    public void LimpiarEspacios()
     {
         foreach (Transform espacio in espacios)
         {

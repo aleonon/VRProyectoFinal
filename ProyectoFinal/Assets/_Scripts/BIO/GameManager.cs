@@ -15,8 +15,13 @@ public class GameManager : MonoBehaviour
     public ZonaReceta zonaReceta;
     public Timer timer;
 
+    //ui
     public GameObject panelVictoria;
     public GameObject panelDerrota;
+    public GameObject panelPatron;
+
+
+    public float tiempoMemoria = 5f;
 
     private void Start()
     {
@@ -32,7 +37,7 @@ public class GameManager : MonoBehaviour
         panelVictoria?.SetActive(false);
         panelDerrota?.SetActive(false);
 
-        generador.GenerarPatron();
+        MostrarPatron();
     }
 
     public void RecetaCorrecta()
@@ -74,6 +79,8 @@ public class GameManager : MonoBehaviour
     {
         zonaReceta.LimpiarSlots();
         generador.GenerarPatron();
+
+        MostrarPatron();
     }
 
     void Victoria()
@@ -98,5 +105,18 @@ public class GameManager : MonoBehaviour
     {
         zonaReceta.LimpiarSlots();
         timer.PararTimer();
+        generador.LimpiarEspacios();
+    }
+
+    void MostrarPatron()
+    {
+        panelPatron?.SetActive(true);
+
+        generador.GenerarPatron();
+        Invoke(nameof(OcultarPatron), tiempoMemoria);
+    }
+    void OcultarPatron()
+    {
+        panelPatron.SetActive(false);
     }
 }

@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 6778867794609619893}
   - component: {fileID: 7968663225819134600}
   - component: {fileID: 2953849748234323827}
-  - component: {fileID: 9128350441391432123}
   - component: {fileID: 2141615806449981729}
   - component: {fileID: -88329775231413430}
   - component: {fileID: 6585154000845372083}
@@ -220,72 +219,6 @@ MonoBehaviour:
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
---- !u!114 &9128350441391432123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984562762056913680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad179a9e83dba5142adaaf7737678e8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BNG.GrabbableUnityEvents
-  onGrab:
-    m_PersistentCalls:
-      m_Calls: []
-  onRelease:
-    m_PersistentCalls:
-      m_Calls: []
-  onBecomesClosestGrabbable:
-    m_PersistentCalls:
-      m_Calls: []
-  onNoLongerClosestGrabbable:
-    m_PersistentCalls:
-      m_Calls: []
-  onBecomesClosestRemoteGrabbable:
-    m_PersistentCalls:
-      m_Calls: []
-  onNoLongerClosestRemoteGrabbable:
-    m_PersistentCalls:
-      m_Calls: []
-  onGrip:
-    m_PersistentCalls:
-      m_Calls: []
-  onTrigger:
-    m_PersistentCalls:
-      m_Calls: []
-  onTriggerDown:
-    m_PersistentCalls:
-      m_Calls: []
-  onTriggerUp:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton1:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton1Down:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton1Up:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton2:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton2Down:
-    m_PersistentCalls:
-      m_Calls: []
-  onButton2Up:
-    m_PersistentCalls:
-      m_Calls: []
-  onSnapZoneEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onSnapZoneExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!54 &2141615806449981729
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -340,3 +273,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Ingrediente
   spawner: {fileID: 0}
+  idIngrediente: 0
